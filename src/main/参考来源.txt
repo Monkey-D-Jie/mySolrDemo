@@ -1,0 +1,12 @@
+1.Solr入门和实践以及我对Solr的8点理解
+https://blog.csdn.net/fansunion/article/details/50007959
+2.Solr入门学习之旅
+http://www.cnblogs.com/cblogs/p/solr-tutorial.html
+3.solrj demo 索引创建与查询
+http://www.cnblogs.com/whatadiors/p/4559231.html
+关键内容摘录：
+6，创建索引，只需要4步
+a.将product转为SolrInputDocument
+b.获取solrclient客户端
+c.把SolrInputDocument放进solrclient
+d.solrclient提交

@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.jf.mydemo : mySolrDemo-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/mySolrDemo-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/mySolrDemo-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mySolrDemo_main/web/Web Gradle : mySolrDemo-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mySolrDemo_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.apache.solr:solr-solrj:5.2.0" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-web:2.11.0" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.4" />
+          <element id="library" level="project" name="Gradle: com.github.pagehelper:pagehelper:5.1.2" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.4.1" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.1" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpmime:4.4.1" />
+          <element id="library" level="project" name="Gradle: org.apache.zookeeper:zookeeper:3.4.6" />
+          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Gradle: org.noggit:noggit:0.6" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.0" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.11.0" />
+          <element id="library" level="project" name="Gradle: com.github.jsqlparser:jsqlparser:1.0" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
